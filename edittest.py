@@ -6,7 +6,7 @@ print(b, a)
 print("python", a, b)
 
 number_school = 202220425
-str_name = "남현도"
+str_name = "NamHyeonDo"
 bool_view = False
 flt_pi = 3.14
 char_element = 'a'
