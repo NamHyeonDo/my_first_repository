@@ -138,9 +138,57 @@ idx =("key1", "key2", "key3")
 dicts = dict.fromkeys(idx, "0")
 print(dicts)
 
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+dicdata = {"name" : "python", "number" : 23564897}
 
+print(my_dict['key1'])
 
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+my_str = my_dict.get("key2")
+print(my_str)
 
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+print(my_dict.pop("key1"))
+print(my_dict)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+dicts = my_dict.copy()
+print(dicts)
+print(my_dict)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+dicdata = {"name" : "python", "number" : 23564897}
+
+my_dict["key3"] = "value3"
+print(my_dict)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+my_dict.setdefault("key3")
+print(my_dict)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+my_dict.update({"key1" : "v4"})
+print(my_dict)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+del my_dict["key2"]
+print(my_dict)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+print("key2" in my_dict)
+print("key3" in my_dict)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+my_list = list(my_dict.keys())
+print(my_list)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+my_set = set(my_dict.keys())
+print(my_set)
+
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+my_dict.clear()
+print(my_dict)
 
 
 
